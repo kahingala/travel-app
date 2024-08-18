@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#8822C7D6"
+    tools:context=".MainActivity4">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="16dp"
+        android:rotation="19"
+        android:rotationX="-14"
+        android:rotationY="-5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/adventure_montage" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="439dp"
+        android:layout_height="680dp"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="#65009688"
+        android:rotation="-52"
+        android:rotationX="-13"
+        android:rotationY="-34"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="218dp"
+        android:layout_height="348dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Take your experience to the next level with Begin the Adventure and enjoy Trip. Whether its begin the TripSwift app with alone or your family and freinds and enjoy your TripSwift travel packages and stay relax."
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="263dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#673AB7"
+        android:text="Get Start"
+        android:textColor="@color/design_default_color_on_secondary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="197dp"
+        android:layout_height="196dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="5dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Begin The Adventure And Enjoy Trip"
+        android:textColor="#0E0E0E"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

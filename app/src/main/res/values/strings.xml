@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">travelswift</string>
+    <string name="packageDetails">1.Friendly activities</string>
+    <string name="packageDetails2">2.Foods</string>
+    <string name="packageDetails3">3.Accommodation activities</string>
+    <string name="packageDetails4">4.Transportation activities</string>
+    <string name="packageDetails5">5.provide a guide</string>
+    <string name="packageDetails6">6.Social Connection Facilities</string>
+    <string name="packageDetails7">7.Safety and Support Facilities</string>
+    <string name="packageDetails8">8.Wellness and Relaxation Facilities</string>
+    <string name="packageDetails9">9.Digital Nomad Facilities</string>
+    <string name="packageDetails10">10.Budget-Friendly Facilities</string>
+    <string name="packageDetails11">11.Exploration Tools</string>
+    <string name="packageDetails12">12.Personal Development Facilities</string>
+    <string name="about_app">“Discover a new way to book places to visit easily. Whether you’re a beginner or an expert. TravelSwift is designed to make your experience seamless and enjoyable”</string>
+    <string name="skip">Next</string>
+
+</resources>

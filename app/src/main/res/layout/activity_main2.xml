@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FCF7FEFF"
+    android:backgroundTint="#6000BCD4"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:rotationY="-32"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/trave" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="237dp"
+        android:layout_height="145dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/abril_fatface"
+        android:text="Welcome to &quot;Travel Swift&quot;"
+        android:textColor="@color/material_dynamic_neutral0"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="147dp"
+        android:layout_height="390dp"
+        android:text="“Discover a new way to book places to visit easily. Whether you’re a beginner or an expert. TravelSwift is designed to make your experience seamless and enjoyable”"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="210dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#4711AA"
+        android:text="Next"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        tools:layout_editor_absoluteX="73dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
